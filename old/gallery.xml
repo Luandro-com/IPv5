@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	title=""
+	thumbPosition="BOTTOM"
+	galleryStyle="CLASSIC"
+	thumbColumns="7"
+	thumbRows="2"
+	backgroundColor="000000"
+	frameColor="000000"
+	frameWidth="0"
+	showOpenButton="false"
+	showFullscreenButton="false"
+	useFlash="false"
+
+>
+  <image imageURL="images/AdaLong.jpg"
+	thumbURL="thumbs/AdaLong.jpg"
+	linkURL="images/AdaLong.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Ada Long]]></caption>
+  </image>
+  <image imageURL="images/Cast Picture.jpg"
+	thumbURL="thumbs/Cast Picture.jpg"
+	linkURL="images/Cast Picture.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Cast Pic]]></caption>
+  </image>
+  <image imageURL="images/dead.jpg"
+	thumbURL="thumbs/dead.jpg"
+	linkURL="images/dead.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[FIlming the dead man]]></caption>
+  </image>
+  <image imageURL="images/Gentech Meeting.jpg"
+	thumbURL="thumbs/Gentech Meeting.jpg"
+	linkURL="images/Gentech Meeting.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[The Meeting]]></caption>
+  </image>
+  <image imageURL="images/gentech.jpg"
+	thumbURL="thumbs/gentech.jpg"
+	linkURL="images/gentech.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Gin.jpg"
+	thumbURL="thumbs/Gin.jpg"
+	linkURL="images/Gin.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Gun walk.jpg"
+	thumbURL="thumbs/Gun walk.jpg"
+	linkURL="images/Gun walk.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/guns.jpg"
+	thumbURL="thumbs/guns.jpg"
+	linkURL="images/guns.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Kyle.jpg"
+	thumbURL="thumbs/Kyle.jpg"
+	linkURL="images/Kyle.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/mj1.jpg"
+	thumbURL="thumbs/mj1.jpg"
+	linkURL="images/mj1.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/open.jpg"
+	thumbURL="thumbs/open.jpg"
+	linkURL="images/open.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Wade.jpg"
+	thumbURL="thumbs/Wade.jpg"
+	linkURL="images/Wade.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/woodbridge.jpg"
+	thumbURL="thumbs/woodbridge.jpg"
+	linkURL="images/woodbridge.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

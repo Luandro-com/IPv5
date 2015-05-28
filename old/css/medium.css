@@ -1,0 +1,85 @@
+body {
+	width:100%;
+}
+/* Season */
+#season {
+}
+#stitle {
+}
+#season h1 {
+	font-size:36px;
+}
+
+#season h2 {
+	font-size:24px;
+	font-family:caviar;
+}
+
+/* Episodes */
+#episodes {
+	height:780px;
+}
+#epvid {
+	margin:10px auto 5px auto;
+	width:600px;
+	height:360px;
+}
+#eleft {
+	float:none;
+	width:100%;
+	margin:auto;
+}
+#eleft img {
+	height:50px;
+	width:50px;
+	margin-right:15px;
+}
+#eright {
+	float:none;
+	width:100%;
+}
+/* Next Episode */
+#nextepisode {
+	height:180px;
+}
+#nchars {
+	float:none;
+}
+
+/* About */
+#about {
+	height:1200px;
+}
+#about h1 {
+	margin:30px auto 10px auto;
+	text-align:center;
+	font-size:36px;
+	width:100%;
+}
+#aleft {
+}
+#aright {
+}
+/* Making off */
+#makingoff {
+	height:300px;
+}
+/* Credits */
+#credits {
+	padding-top:180px;
+	height:2000px;
+}
+#credits img {
+	height:80px;
+	width:80px;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	margin-right:60px;
+}
+#credits p {
+	font-size:14px;
+}

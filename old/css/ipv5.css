@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family:Spy;
+	src:url(../assets/fonts/spyagencyexpand.ttf);
+}
+@font-face {
+	font-family:Caviar;
+	src:url(../assets/fonts/CaviarDreams.ttf);
+}
+/* Scroll */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+	background:black;
+}
+::-webkit-scrollbar-thumb {
+	background:white;
+}
+/* CSS Document */
+
+body {
+	font-family:caviar, Arial, Helvetica, sans-serif;
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+
+a {
+	text-decoration:none;
+}
+.container {
+	width:90% !important;
+	margin:auto;
+}
+/* Intro */
+#intro {
+	height:450px;
+	background:white;
+}
+#midvideo {
+	float:left;
+	height:100%;
+	width:100%;
+	margin-top:-472px;
+}
+#title {
+	width:100%;
+	height:200px;
+	text-align:center;
+	position:relative;
+	margin:auto;
+}
+#intro h1 {
+	font-size:78px;
+	font-family:Spy;
+}
+#intro h2 {
+	text-align:center;
+	width:100%;
+}
+#playintro {
+	width:170px;
+	height:70px;
+	background:white;
+	color:black;
+	line-height:70px;
+	text-align:center;
+	position:relative;
+	margin: 100px auto 50px auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#playintro:hover {
+	background:#CCC;
+	color:white;
+}
+/* Season */
+#season {
+	height:200px;
+	background:black;
+	color:white;
+}
+#season ul {
+	float:left;
+}
+#season ul li {
+	list-style:none;
+	display:inline-block;
+	margin:8% 10px 10% 0px;
+	z-index:99;
+}
+#fb, #yt, #ks {
+	height:80px;
+	width:80px;
+	font-size:16px;
+	background:white;
+	color:black;
+	text-align:center;
+	z-index:99;
+	line-height:80px;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+#fb:hover { background:#00F; color:white;}
+#yt:hover { background:#C00; color:white;}
+#ks:hover { background:#090; color:white;}
+#stitle {
+	float:right;
+	text-align:center;
+	padding-right:3%;
+}
+#season h1 {
+	font-size:56px !important;
+}
+
+#season h2 {
+	font-size:!important;
+	font-family:caviar;
+}
+
+
+
+/* Episodes */
+#episodes {
+	clear:both;
+	height:600px;
+	text-align:justify;
+}
+#eleft {
+	float:left;
+	width:55%;
+	margin:auto;
+}
+#eleft img {
+	background:white;
+	height:70px;
+	width:70px;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	margin-right:15px;
+}
+#epvid {
+	margin:30px auto 5px auto;
+	width:640px;
+	height:450px;
+	background:black;
+}
+#eright {
+	float:right;
+	width:40%;
+}
+/* Next Episode */
+#nextepisode {
+	height:120px;
+	background:#666;
+	clear:both;
+}
+#nextepisode h1, #nextepisode h2 {
+	float:left;
+	font-family:spy;
+}
+#nextepisode h1 {
+	color:white;
+	padding-right:30px;
+	padding-top:20px
+
+}
+#nextepisode h2 {
+	padding-top:25px
+}
+#nchars img {
+	float:right;
+	background:white;
+	height:60px;
+	width:60px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-right:-6px;
+	margin-top:30px;
+}
+/* About */
+#about {
+	height:1200px;
+	clear:both;
+}
+#about h1 {
+	margin:30px auto 100px auto;
+	text-align:center;
+	font-size:48px;
+	width:60%;
+}
+#about img {
+	margin:50px 40% 30px 40%;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+#about h2 {
+	text-align:center;
+	font-size:22px;
+}
+#about p {
+	text-align:justify;
+}
+#aleft {
+	float:left;
+	width:45%;
+}
+#aright {
+	float:right;
+	width:45%;
+}
+
+/* Making off */
+#makingoff {
+	background:black;
+	color:white;
+	height:700px;
+}
+#makingoff h1 {
+	text-align:center;
+	font-size:48px;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+
+/* Credits */
+#credits {
+	color:black;
+	clear:both;
+	padding-top:50px;
+	height:2500px;
+}
+#credits h1 {
+	text-align:center;
+	font-size:48px;
+}
+#credits h2 {
+	margin:100px 0 40px 50px;
+	font-size:36px;
+	font-family:spy;
+}
+#credits img {
+	height:100px;
+	width:100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	margin-right:100px;
+}
+#credits p {
+	text-align:inherit;
+}
+#credits ul li {
+	display:inline-block;
+	list-style:none;	
+}
+/* Footer */
+footer {
+	clear:both;
+	margin-top:10px;
+	height:30px;
+	background:black;
+	color:white;
+}

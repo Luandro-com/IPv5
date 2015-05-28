@@ -1,0 +1,238 @@
+@font-face {
+	font-family:'spy';
+	src:url(../font/spyagencyexpand.ttf);
+}
+
+
+body {
+    font-size:16px;
+    margin:0;
+    padding:0;
+    color:white;
+    background-image:url(../images/open.jpg);
+    font-family:sans-serif;
+    height:100%;
+}
+a {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+#screen {
+    position:fixed;
+    right:-900px;
+    top:2%;
+    bottom:2%;
+    background:rgba(0,0,0,0.4);
+    background-image:url(../images/overlay.png);
+    background-repeat:repeat;
+    border: #7aaead solid 20px;
+    border-radius:3% 0 0 3%;
+    height:90%;
+    width:80%;
+}
+#screen nav {
+    position:fixed;
+    right:0;
+    bottom:2%;
+    top:2%;
+    background:#7aaead;
+    border-radius:15px 0 0 15px;
+    height:98%;
+    width:90px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+nav ul {
+}
+nav ul li {
+    list-style:none;
+    position:absolute;
+    bottom:50%;
+    top:50%;
+    right:15%;
+}
+/* Home */
+.container {
+    margin:auto;
+    width:90%;
+    height:80%;
+    margin-top:5%;
+    margin-top:5%;
+}
+.home-write {
+    width:100%;
+    height:0;
+    float:right;
+    text-align:center;
+    border:5px solid #7aaead;
+    border-radius:5%;
+    background-image:url(../images/but_overlay.png);
+    background-repeat:repeat;
+}
+.home-write h1 {
+    opacity:0;
+    font-size:5em;
+    font-family:'spy';
+    text-shadow:8px 8px black;
+}
+.home-write h2  {
+    opacity:0;
+    font-size:1em;
+    font-family:'spy';
+        
+}
+.home-write h3 {
+    opacity:0;
+}
+.home-write h4 {
+    font-family:'spy';
+    opacity:0;
+}
+.home-write h5 {
+    opacity:0;
+}
+.dis {
+    color:red;
+}
+.play-button {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    height:0;
+    width:102px;
+    background-image:url(../images/ipv5_icon_play.png);
+}
+.play-button:hover {
+    background-image:url(../images/ipv5_icon_playh.png)
+}
+/* Menu */
+.boxes {
+    width:35%;
+    float:left;
+    text-align:left;
+    font-family:'spy';
+}
+.boxes img {
+    margin-right:5%;
+    vertical-align:middle;
+}
+.next-episode {
+    position:absolute;
+    bottom:3%;
+    right:10%;
+}
+.box-content {
+    opacity:0;
+    margin:auto;
+    padding:10px 20% 10px 20%;
+    font-size:1.2em;
+}
+.menu-box {
+    height:0;
+    width:0;
+    border:#7aaead solid 0;
+    border-radius:5%;
+    background:rgba(0,0,0,0.6);
+    margin:12% auto 12% auto;
+}
+.menu-box:hover {
+    cursor:pointer;
+    border:red solid 0;
+}
+/* Loading Circles */
+.loading {
+    opacity:0;
+    position:absolute;
+    top:40%;
+    bottom:40%;
+    right:0;
+    left:0;
+}
+.circle {
+    background-color: rgba(0,0,0,0);
+    border: 5px solid #7aaead;
+    opacity: .9;
+    border-right: 5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0,0,0,0);
+    border-radius: 50px;
+    box-shadow: 0 0 35px #7aaead;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    -moz-animation: spinPulse 1s infinite ease-in-out;
+    -webkit-animation: spinPulse 1s infinite linear;
+}
+
+.circle1 {
+    background-color: rgba(0,0,0,0);
+    border: 5px solid #7aaead;
+    opacity: .9;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #7aaead;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+}
+
+@-moz-keyframes spinPulse {
+    0% {
+        -moz-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #7aaead;
+    }
+
+    50% {
+        -moz-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -moz-transform: rotate(-320deg);
+        opacity: 0;
+    };
+}
+
+@-moz-keyframes spinoffPulse {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
+
+@-webkit-keyframes spinPulse {
+    0% {
+        -webkit-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #7aaead;
+    }
+
+    50% {
+        -webkit-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-320deg);
+        opacity: 0;
+    };
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}
